@@ -10,10 +10,10 @@ terraform {
 
 
    backend "s3" {
-     bucket         = "mydev-project-terraform-sample-batch-3334"
+     bucket         = "bucket-for-project-01-terraform"
      key            = "infra/terraform.tfstate"
-     region         = "us-east-1"
-     dynamodb_table = "my-dynamodb-table"
+     region         = "ap-south-1"
+     dynamodb_table = "database"
      encrypt        = true
    }
 }
