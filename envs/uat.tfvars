@@ -1,6 +1,6 @@
 environment   = "uat"
 project_name  = "myapp"
-aws_region    = "us-east-1"
+aws_region    = "ap-south-1"
 vpc_cidr      = "10.1.0.0/16"
 bucket_suffix = "assets-uat-20240101"
 
